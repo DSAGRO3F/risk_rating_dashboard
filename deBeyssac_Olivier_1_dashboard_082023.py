@@ -41,7 +41,7 @@ def get_X_test_dataset(session, url_X_test):
         return {}
 
 #base_url = ' http://127.0.0.1:5000'
-base_url = 'https://github.com/DSAGRO3F/risk_rating_dashboard.git'
+base_url = 'https://github.com/DSAGRO3F/risk_rating_api.git'
 end_point = '/get_X_test_data'
 
 liste = get_X_test_dataset(session, url_X_test = base_url + end_point)
