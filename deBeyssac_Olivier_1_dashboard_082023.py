@@ -41,7 +41,7 @@ def get_X_test_dataset(session, url_X_test):
         return {}
 
 #base_url = ' http://127.0.0.1:5000'
-base_url = 'https://git.heroku.com/risk-credit-api.git'
+base_url = 'https://git.heroku.com/risk-rating-dashboard.git'
 end_point = '/get_X_test_data'
 
 liste = get_X_test_dataset(session, url_X_test = base_url + end_point)
