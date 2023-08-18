@@ -1,1 +1,1 @@
-web: gunicorn deBeyssac_Olivier_1_api_082023:app
+web: sh setup.sh && streamlit run deBeyssac_Olivier_1_dashboard_082023.py
